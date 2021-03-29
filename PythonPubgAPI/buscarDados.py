@@ -12,7 +12,7 @@ from openpyxl import Workbook
 
 KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-con = MySQLdb.connect(host="127", port=xxxx, user='xxxx', passwd='xxx', db='xxx')
+con = MySQLdb.connect(host="xxxx", port=xxxx, user='xxxx', passwd='xxx', db='xxx')
 
 cursor = con.cursor()
 cursor.execute('SELECT nick_pubg FROM jogador')
